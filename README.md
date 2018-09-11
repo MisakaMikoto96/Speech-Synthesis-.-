@@ -19,9 +19,4 @@ A folder containing .wav files for the monophone sounds.
 A folder containing example .wav files of how the synthesiser should sound. 
 
 
-• normalise the text (convert to lower/upper case, remove all punctuation, etc.) to give you a straightforward sequence of words
-
-• expand the word sequence to a phone sequence–making use of nltk.corpus.cmudict to do this, which is a pronunciation lexicon provided as part of NLTK. 
-
-• concatenate the monophone wav files corresponding to the phone sequence above together in the right order to produce the required synthesised audio.
 
